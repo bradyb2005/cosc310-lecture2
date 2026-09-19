@@ -39,7 +39,6 @@ class Cart:
             "price": item["price"],
             "qty": qty,
         })
-        raise NotImplementedError
 
     def remove_item(self, item_id: int) -> None:
         for i, line in enumerate(self.lines):
