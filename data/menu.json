@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Tonkotsu Ramen",   "price": 16.50, "cuisine": "Japanese", "available": true },
+  { "id": 2, "name": "Gyoza (6 pc)",     "price": 8.00,  "cuisine": "Japanese", "available": true },
+  { "id": 3, "name": "Green Tea",        "price": 3.25,  "cuisine": "Japanese", "available": true },
+  { "id": 4, "name": "Spicy Miso Ramen", "price": 17.25, "cuisine": "Japanese", "available": false },
+  { "id": 5, "name": "Edamame",          "price": 5.50,  "cuisine": "Japanese", "available": true },
+  { "id": 6, "name": "Matcha Cheesecake","price": 9.75,  "cuisine": "Dessert",  "available": true },
+  { "id": 7, "name": "Chicken Karaage",  "price": 11.00, "cuisine": "Japanese", "available": true },
+  { "id": 8, "name": "Iced Coffee",      "price": 4.25,  "cuisine": "Drinks",   "available": false }
+]

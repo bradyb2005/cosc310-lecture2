@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Secrets and local config
+.env
+
+# Test data must not touch committed application data (project spec section 8)
+data/test_*.json
+data/*.tmp.json
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
