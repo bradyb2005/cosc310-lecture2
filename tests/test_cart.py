@@ -56,4 +56,14 @@ def test_removing_an_absent_item_raises():
         cart.remove_item(999)
 
 
-# TODO: add one test of your own. What behaviour is not covered above?
+# add one test of your own...
+def test_successful_item_removal():
+    cart = Cart()
+    cart.add_item(GYOZA, 2)
+    cart.add_item(RAMEN, 1)
+
+    cart.remove_item(GYOZA["id"])
+
+    assert len(cart.lines) == 1
+    assert cart.lines[0]["item_id"] == RAMEN["id"]
+    assert cart.total() == 16.50
